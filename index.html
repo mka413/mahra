@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>💘</title>
+
+  <!-- Mobile friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Cache-busting CSS -->
+  <link rel="stylesheet" href="style.css?v=8">
+</head>
+
+<body>
+
+  <!-- Question -->
+  <h1 id="question">جربّي تضغطين «لا» لو تقدرين 😏</h1>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button id="yesBtn">نعم 🤍</button>
+    <button id="noBtn">لا 🙃</button>
+  </div>
+
+  <!-- Video + hearts -->
+  <div id="videoContainer">
+    <div class="hearts"></div>
+
+    <video
+      id="valVideo"
+      src="video.mp4"
+      playsinline
+      preload="metadata"
+      loop
+      muted
+    ></video>
+
+    <p id="finalText"></p>
+  </div>
+
+  <!-- Cache-busting JS -->
+  <script src="script.js?v=8"></script>
+
+</body>
+</html>
